@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photographer Portfolio - Anastasia Featherstone</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="vh-100 flex">
+      <div class="container">
+        <div class="header-content">
+          <h1>
+            I'm a <br /><span
+              class="typewrite"
+              data-loop="yes"
+              data-speed="100"
+              data-delay="1000"
+              data-words='["Photophile", "Videographer", "Video Editor"]'></span>
+          </h1>
+          <h3>Anastasia Featherstone</h3>
+
+          <ul class="social-links">
+            <!-- LINKEDIN -->
+            <li>
+              <a
+                href="https://www.linkedin.com/in/anastasiafeatherstone411/"
+                class="flex">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+
+            <!-- WEBSITE -->
+            <li>
+              <a
+                href="anastasia-featherstone-portfolio.webflow.io"
+                class="flex">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- ABOUT SECTION -->
+      <section id="about" class="about py-7">
+        <div class="container">
+          <div class="about-content grid">
+            <!-- ABOUT LEFT -->
+            <div class="about-left">
+              <img src="assets/about-me.jpg" alt="Anastasia Featherstone" />
+            </div>
+
+            <!-- ABOUT RIGHT -->
+            <div class="about-right">
+              <div class="title">
+                <h2>About Me</h2>
+              </div>
+
+              <p class="lead">
+                I’m a passionate web designer with a diverse range of interests.
+                This website is a platform for me to showcase some of my visual
+                creations, including photography and art. As a student at the
+                University of the People, I'm constantly exploring new creative
+                avenues. Feel free to connect with me on social media or check
+                out my portfolio for more of my work.
+              </p>
+
+              <p class="lead">
+                Visit my
+                <a href="https://art-portfolio-af.netlify.app/"
+                  >"Art portfolio". </a
+                ><br />Click the button to take a glimpse into my creative
+                process. Enjoy.
+              </p>
+
+              <a href="#work" class="btn-down">
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section id="work" class="vh-100 flex">
+        <div class="container">
+          <div class="work-content">
+            <div class="title">
+              <h2>What am I doing?</h2>
+            </div>
+
+            <ul class="work-top grid">
+              <li class="lead">
+                <i class="fas fa-dot-circle"
+                  >I'm currently pursuing a Bachelor of Science in Computer
+                  Science at the University of the People.</i
+                >
+              </li>
+              <li class="lead">
+                <i class="fas fa-dot-circle">I'm a parttime English teacher.</i>
+              </li>
+              <li class="lead">
+                <i class="fas fa-dot-circle"
+                  >I'm like to code website, landing page, analysing data, a
+                  book nerd and an artist.</i
+                >
+              </li>
+            </ul>
+
+            <div class="work-bottom-grid">
+              <div>
+                <span class="icon">
+                  <img
+                    src="assets/icons8-web-design-100.png"
+                    alt="wed design" />
+                </span>
+                <h3>Web Design</h3>
+              </div>
+
+              <div>
+                <span class="icon">
+                  <img
+                    src="assets/icons8-data-analysis-100.png"
+                    alt="data analysis" />
+                </span>
+                <h3>Data Analysis</h3>
+              </div>
+
+              <div>
+                <span class="icon">
+                  <img src="assets/icons8-art-100.png" alt="creative work" />
+                </span>
+                <h3>Creative Work</h3>
+              </div>
+
+              <div>
+                <span class="icon">
+                  <img
+                    src="assets/icons8-teacher-100.png"
+                    alt="parttime teacher" />
+                </span>
+                <h3>Parttime Teacher</h3>
+              </div>
+            </div>
+
+            <a href="#portfolio" class="btn-down btn-down-white">
+            <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+      </section>
+       
+    </main>
+
+    <!-- TYPEWRITING JS -->
+    <script src="typewriting/typewriting.js"></script>
+  </body>
+</html>
