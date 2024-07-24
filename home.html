@@ -34,7 +34,8 @@
             <li>
               <a
                 href="https://www.linkedin.com/in/anastasiafeatherstone411/"
-                class="flex">
+                class="flex"
+                target="_blank">
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
@@ -43,7 +44,8 @@
             <li>
               <a
                 href="anastasia-featherstone-portfolio.webflow.io"
-                class="flex">
+                class="flex"
+                target="_blank">
                 <i class="fa-solid fa-globe"></i>
               </a>
             </li>
@@ -95,31 +97,42 @@
       </section>
 
       <!-- WORK SECTION -->
-      <section id="work" class="vh-100 flex">
+      <section id="work" class="vh-100 flex py-7">
         <div class="container">
           <div class="work-content">
             <div class="title">
               <h2>What am I doing?</h2>
             </div>
-
             <ul class="work-top grid">
-              <li class="lead">
-                <i class="fas fa-dot-circle"
-                  >I'm currently pursuing a Bachelor of Science in Computer
-                  Science at the University of the People.</i
-                >
+              <li class="lead" style="display: flex; align-items: center">
+                <i class="fa-solid fa-circle-dot" style="margin-right: 1em"></i>
+                <p style="font-size: 2.3rem">I'm a parttime English teacher.</p>
               </li>
-              <li class="lead">
-                <i class="fas fa-dot-circle">I'm a parttime English teacher.</i>
+
+              <li class="lead" style="display: flex; align-items: center">
+                <i class="fa-solid fa-circle-dot" style="margin-right: 1em"></i>
+                <p style="font-size: 2.3rem">
+                  Open to new professional challenges.
+                </p>
               </li>
-              <li class="lead">
-                <i class="fas fa-dot-circle"
-                  >I'm like to code website, landing page, analysing data, a
-                  book nerd and an artist.</i
-                >
+
+              <li class="lead" style="display: flex; align-items: center">
+                <i class="fa-solid fa-circle-dot" style="margin-right: 1em"></i>
+                <p style="font-size: 2.3rem">
+                  I'm currently pursuing a Bachelor of Science in Computer
+                  Science at the University of the People.
+                </p>
+              </li>
+
+              <li class="lead" style="display: flex; align-items: center">
+                <i class="fa-solid fa-circle-dot" style="margin-right: 1em">
+                </i>
+                <p style="font-size: 2.3rem">
+                  I like to code, landing page, analysing data, a book nerd and
+                  an artist.
+                </p>
               </li>
             </ul>
-
             <div class="work-bottom-grid">
               <div>
                 <span class="icon">
@@ -129,7 +142,6 @@
                 </span>
                 <h3>Web Design</h3>
               </div>
-
               <div>
                 <span class="icon">
                   <img
@@ -138,14 +150,12 @@
                 </span>
                 <h3>Data Analysis</h3>
               </div>
-
               <div>
                 <span class="icon">
                   <img src="assets/icons8-art-100.png" alt="creative work" />
                 </span>
                 <h3>Creative Work</h3>
               </div>
-
               <div>
                 <span class="icon">
                   <img
@@ -155,14 +165,188 @@
                 <h3>Parttime Teacher</h3>
               </div>
             </div>
-
             <a href="#portfolio" class="btn-down btn-down-white">
-            <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-down"></i>
             </a>
+          </div>
         </div>
       </section>
-       
     </main>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="vh-100 py-7">
+      <div class="container">
+        <div class="portfolio-content">
+          <div class="title">
+            <h2>My latest works</h2>
+            <a href="#contact" class="btn-down">
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </div>
+
+          <div class="portfolio-grid grid">
+            <!-- PHOTO 1 -->
+            <div>
+              <img src="assets/img1.jpg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 2 -->
+            <div>
+              <img src="assets/img2.jpg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 3 -->
+            <div>
+              <img src="assets/img3.jpg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 4 -->
+            <div>
+              <img src="assets/img4.jpeg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 5 -->
+            <div>
+              <img src="assets/img5.jpeg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 6 -->
+            <div>
+              <img src="assets/img6.jpeg" alt="img1" />
+            </div>
+
+            <!-- PHOTO 7 -->
+            <div>
+              <img src="assets/img7.jpg" alt="img1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-7">
+      <div class="container">
+        <div class="contact-content flex">
+          <div class="contact-left">
+            <div class="title">
+              <h2>Contact me</h2>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="5b91b9ea-a2e3-4c75-8028-6035e15b2a26" />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your name here ..."
+                required />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email here ..."
+                required />
+              <textarea
+                name="message"
+                rows="10"
+                cols="30"
+                class="form-control long-text"
+                required>
+Your message...</textarea
+              >
+              <input
+                type="checkbox"
+                name="botcheck"
+                class="hidden"
+                style="display: none" />
+              <input type="submit" class="btn-submit btn" value="Submit" />
+            </form>
+          </div>
+
+          <div class="contact-right">
+            <img src="assets/bg.jpg" alt="contact-me" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM SECTION -->
+    <section id="insta" class="py-7">
+      <div class="container">
+        <div class="insta-content">
+          <div class="title">
+            <h2>Instagram</h2>
+            <a href="#footer" class="btn-down btn-down-white">
+              <i class="fas fa-chevron-down"></i>
+            </a>
+          </div>
+
+          <div class="insta-grid grid">
+            <!-- INSTA 1 -->
+            <div>
+              <img src="assets/img5.jpeg" alt="insta1" />
+            </div>
+
+            <!-- INSTA 2 -->
+            <div>
+              <img src="assets/img3.jpg" alt="insta2" />
+            </div>
+
+            <!-- INSTA 3 -->
+            <div>
+              <img src="assets/img4.jpeg" alt="insta3" />
+            </div>
+
+            <!-- INSTA 4 -->
+            <div>
+              <img src="assets/hero.jpg" alt="insta4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="py-7">
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <h3>ANASTASIA FEATHERSTONE</h3>
+            <div>
+              <img src="assets/about-me.jpg" alt="footer-img" />
+            </div>
+          </div>
+
+          <div>
+            <h3>Links</h3>
+            <ul class="flex">
+              <li>
+                <a href="#about">About Me</a>
+              </li>
+
+              <li>
+                <a href="#work">Work</a>
+              </li>
+
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contact Me</a>
+              </li>
+
+              <li>
+                <a href="#insta">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- TYPEWRITING JS -->
     <script src="typewriting/typewriting.js"></script>
